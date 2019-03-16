@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
-'Funciones del ejercicio 1'
+#Función del ejercicio 1
 
-def rect (a,b) :
+def rectangulo (a,b) :
+#a es la altura y b es la base
     '''Dando una base y una altura,
 te devuelve un rectángulo con *'''
     L = range(b)
@@ -11,5 +12,4 @@ te devuelve un rectángulo con *'''
             print '*',
         j = j + 1
         print '\n'
-
 
