@@ -13,5 +13,3 @@ te devuelve un rectángulo con *'''
         print '\n'
 
 
-t = rect (2,3)
-print t

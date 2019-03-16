@@ -7,4 +7,4 @@ from Ejercicio01F import rect
 a = input ('Dame la altura del rectángulo: ')
 b = input ('Dame el ancho del rectángulo: ')
 print 'El rectángulo es: '
-print rect(a,b)
+rect(a,b)
