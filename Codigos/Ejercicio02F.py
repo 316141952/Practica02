@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Función del ejercicio 2
+#Funciones del ejercicio 2
 
 def orden_l (x) :
     '''Ordena una lista de mayor a menor'''
