@@ -9,12 +9,7 @@ dentro de una cadena'''
     for i in range(len(P)): 
         for P[i] in P:
             if letrita == P[i]:
-                return 1
-            else :
-                return 0
-
-
-print ubicacion ("p","perro")
+                return True
 
 
 def posicion (letrita, palabrita):
@@ -27,13 +22,10 @@ una letra dentro de una cadena'''
         for P[i] in P:
             if letrita == P[i]:
                 print P[i]+" corresponde a la posicion ",
-                print j 
-
-
-posicion ("p","perro")
-
+                return j 
 
 def palabritas (palabrita1,palabrita2):
+    ''''''
     p1 = palabrita1.lower()
     p2 = palabrita2.lower()
     #pasa las cadenas a minúsculas 
@@ -41,19 +33,14 @@ def palabritas (palabrita1,palabrita2):
     P2 = list (p2)
     #convierte las cadenas en una lista
     if len(P1) == len(P2):
+    #ve si tienen el mismo número de letras
         for i in range(len(P1)):
             for P1[i] in P1 :
-                a = ubicacion(P1[i],P2)
-                if a == 1:
-                    return posicion(P1[i],P2)
+                if ubicacion (P1[i],P2) :
+                    return "Es posible"
                 else :
                     return "No es posible"
     else:
         return "No es posible"
-    
 
-print palabritas ("Amar","Rama")
-
-
-
- 
+def posicion 
